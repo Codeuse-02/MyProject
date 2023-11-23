@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+
+}
+
+.dice-wrapper {
+
+    display: flex;
+
+}
+
+.dice {
+    margin: 10% auto auto auto;
+    border: 1px solid gray;
+    border-radius: 5%;
+    background-color: black;
+    height: 110px;
+    width: 8%;
+    animation: shake 0.3s linear 4;
+
+}
+
+.Diedot {
+    --top: 0%;
+    --left: 0%;
+    margin-top: -2%;
+    margin-bottom: -7%;
+    /*Creation of the dot*/
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+    height: 10%;
+    width: 10%;
+    /*Positioning the dot */
+    top: var(--top);
+    left: var(--left);
+    transform: translateX(calc(var(--left)* 9)) translateY(calc(var(--top)* 9));
+}
+
+.Diedot:nth-child(2) {
+    top: 25%;
+    left: 25%;
+}
+
+#button {
+
+    text-align: center;
+    border-radius: 2%;
+
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0eg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
