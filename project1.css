@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+
+}
+
+#all {
+    background-color: rgba(211, 211, 211, 0.559);
+    padding: 50px 15%;
+
+}
+
+.box-container {
+    background-color: white;
+}
+
+.resume {
+    background-color: white;
+}
+
+#all .box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    float: left;
+    padding: 20px;
+    margin: 0px 15px;
+}
+
+.color .invoice {
+    padding-left: 20px;
+    background: whitesmoke;
+    height: 100%;
+
+}
+
+.gras {
+    font-weight: bold;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    background: whitesmoke;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.prix {
+    display: flex;
+    background-color: white;
+}
+
+.box-container .color {
+    background: whitesmoke;
+}
+
+.box-container2 {
+    padding: 30px;
+
+}
+
+.resume {
+    padding-left: 40px;
+    margin-left: -20px;
+    box-shadow: 20px rgb(250, 248, 248);
+}
+
+
+#colour {
+    background: black;
+    color: white;
+    padding-left: 20px;
+}
+
+.whitesmoke {
+    color: grey;
+}
+
+b {
+    font-weight: 1000;
+    font-size: x-large;
+}
+
+.right {
+    text-align: right;
+}
+
+.centrer {
+    text-align: center;
+    width: 10px;
+    justify-content: space-between;
+}
+
+.color {
+    padding: 0px;
+    margin: -20px -20Px 0 -25px;
+
+}
