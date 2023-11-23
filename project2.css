@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+#all {
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 10px solid #999999;
+}
+
+.entête {
+    text-align: left;
+    width: 200px;
+    margin: 0px 20px;
+}
+
+.float {
+    display: inline-block;
+}
+
+.entête1 {
+    float: right;
+    margin-top: 150px;
+    width: 200px;
+    margin: -142px 20px 0px 20px;
+    direction: rtl;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-betwe;
+
+}
+
+.whitesmoke {
+    color: #999999;
+}
+
+.whitesmokee {
+    color: #99999981;
+    font-weight: bolder;
+}
+
+#nav-container {
+    justify-content: space-between;
+    display: flex;
+}
+
+.left-side li,
+.center li,
+.right-side li {
+    display: inline-block;
+}
+
+.left-side li a,
+.center li a,
+.right-side li a {
+    text-decoration: none;
+    padding: 0 17px 0 0;
+    font-weight: 500;
+}
+
+.font-weight {
+    font-weight: 400;
+}
+
+.font-size {
+    font-size: 25px;
+}
+
+.font-sizee {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.font-sizeee {
+    font-size: 20px;
+    font-weight: 480px;
+}
+
+.coeur {
+    color: #f08080;
+    background: #f08080;
+}
+
+#footer {
+    position: absolute;
+    bottom: -50px;
+    /* on le colle en bas */
+    width: 90%;
+    height: 100px;
+    /* Hauteur du pied de page */
+    margin-left: -125px;
+}
+
+#all {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 100px;
+    /* Hauteur du pied de page */
+}
+
+.contain #nav-container {
+    font-weight: 400;
+}
